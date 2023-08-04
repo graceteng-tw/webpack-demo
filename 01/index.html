@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No webpack, embedded javascript</title>
+    <script type="text/javascript">
+        window.addEventListener("DOMContentLoaded", ()=>{
+            function toggleColor(color) {
+                return color === 'blue' ? 'red' : 'blue';
+            }
+            const header = document.getElementById('header');
+            header.style.color = 'blue';
+            const button = document.getElementById('button');
+            button.addEventListener('click', () => {
+                header.style.color = toggleColor(header.style.color);
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1 id="header">no webpack, embedded script</h1>
+    <button id="button">Click here</button>
+</body>
+</html>
