@@ -1,0 +1,1 @@
+export default ['2rem', '3rem', '4rem', '5rem', '6rem'];
