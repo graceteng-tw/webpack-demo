@@ -1,0 +1,19 @@
+{
+  "name": "components",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 4568",
+    "build": "next build",
+    "start": "next start -p 4568",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "13.4.12",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@module-federation/nextjs-mf": "^7.0.6"
+  }
+}
