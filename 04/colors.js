@@ -1,0 +1,1 @@
+export default ['blue', 'red', 'black', 'green', 'purple', 'gold', 'orange'];
